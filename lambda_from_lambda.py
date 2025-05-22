@@ -3,6 +3,8 @@ import boto3  # Import the boto3 library to interact with AWS services
 import zipfile  # Import the zipfile module to create ZIP files
 from botocore.exceptions import ClientError # Import ClientError to handle exceptions from boto3
 
+import logging
+logger = logging.getLogger()
 logger.setLevel(logging.INFO) # Set the logging level to INFO
 
 # Setup variables
