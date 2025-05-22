@@ -13,7 +13,7 @@ logger.setLevel(logging.INFO) # Set the logging level to INFO
 
 # Setup variables
 region = "us-east-1"  # Change to your desired region
-lambdas_iam_role = "arn:aws:iam::339713005792:role/service-role/lambda-creates-lambda-role-tyqb7j6i"  # Replace with your IAM role ARN
+lambdas_iam_role = "arn:aws:iam::<account-id>:role/service-role/<your-lambda-execution-role-name>"  # Replace with your IAM role ARN
 myvar = "myvariable"  # You can replace with your variable
 template_name = "mytemplate"  # Default value for the target function name
 
